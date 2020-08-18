@@ -2,6 +2,8 @@
 
 >**Aim**: Build a basic Slackbot for Tableau Server in GCP
 
+⚠️ Any resources created in GCP are not secure and should only be used in a test environment 
+
 ### What you'll find here...
 
 1. A way to deploy a basic trial instance of Tableau Server on the Google Cloud Platform using Terraform
@@ -109,7 +111,7 @@ password=reporting
 
 ![Tableau Installation Complete](./test/images/tableau_installation_complete.png)
 
-9. Generate an Personal Access Token called 'Slack API Token' and store for use later:
+9. Generate a Personal Access Token called 'Slack API Token' and store for use later:
 * Navigate to `My Account Settings` -> `Personal Access Tokens`
 
 ![Tableau PAT](./test/images/tableau_api_token.png)
