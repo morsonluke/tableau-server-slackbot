@@ -40,7 +40,7 @@ The basic functionality allows for the user to list the views available from the
 > You don't have an instance of Tableau Server? No problem... 
 > Let's create a basic, single-node instance of Tableau Server on Linux, in GCP, using Terraform
 
-1.. Update the variables in `variables.tf` if required to change the region and zone. Export the project as an environment variable 
+1. Update the variables in `variables.tf` if required to change the region and zone. Export the project as an environment variable 
 
 ```bash
 export TF_VAR_project="XXX"
@@ -63,7 +63,7 @@ make tableau
 
 5. Once the VM is created you can SSH in and monitor the installation process. The `startup.sh` script automates the installation of a basic instance of Tableau Server.
 
-* Navigate to Computer Engine -> VM instances
+* Navigate to Compute Engine -> VM instances
 
 ![VM Instances](./test/images/gcp_virtual_machine.png)
 
